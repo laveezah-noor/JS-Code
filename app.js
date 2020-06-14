@@ -1,3 +1,4 @@
+// document.write('<h4>Alerts</h4>')
 
 //1.
 // alert("Hello! Welcome To Our Website");
@@ -21,6 +22,7 @@
 // console.log(a)
 
 
+// document.write('<h4>Variable For Strings</h4>')
 
 //1. 
 // var username;
@@ -28,22 +30,22 @@
 
 //2.
 // var myName;
-// myName = "Laveezah Noor"
+// myName = "Laveezah Noor";
 
 
 //3. 
 // var message;
 // message = "Hello World";
-// alert(message)
+// alert(message);
 
 
 //4.
-// var name = "Jhone Doe"
-// var age = "15 years old"
+// var name = "Jhone Doe";
+// var age = "15 years old";
 // var work ="Certified Mobile Application Development";
-// alert(name)
-// alert(age)
-// alert(work)
+// alert(name);
+// alert(age);
+// alert(work);
 
 
 //5.
@@ -59,8 +61,32 @@
 // alert(text)
 
 
+// 6.
+// var email = 'example@gmail.com';
+// alert('My email address is ' + email);
 
 
+// 7.
+// var book = 'A smarter way to learn JavaScript';
+// alert('I am trying to learn from the Book ' + book);
+
+
+// 8.
+// document.write('Yah! I can write HTML content through JavaScript')
+
+
+
+// 9.
+// var symbols = '▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬';
+// alert(symbols);
+// document.write(symbols);
+
+
+
+
+
+
+// document.write('<h4>Variable For Numbers</h4>')
 
 // 1. 
 // var age;
@@ -89,21 +115,27 @@
 
 
 
+// document.write('<h4>Variable Names: Legal & Illegal</h4>')
+
+
 // 1. 
-// var a; var b; var c;
+// var a, b, c;
 
 
 // 2.
-// var alert; var console; var for; var 
-// var hello; var world; var doe; var hagrid; var albus;
+// var alert, console, for, document, if;
+// var hello, world, doe, hagrid, albus;
 
 
 // 3. 
-// document.write("Rules for naming JS variables")
-// document.write("Rules for naming JS variables Variable names can only contains numbers, $, letters and _.For example $my_1stVariable Variables must begin with a letter,$ or_. For example $name, _name or name. Variable names are case sensitive. Variable names should not be JS keywords.");
+// document.write("<br><h5>Rules for naming JS variables</h5>")
+// document.write("Variable names can only contains numbers, $, letters and _.<br>For example $my_1stVariable <br>Variables must begin with a letter,$ or_.<br> For example $name, _name or name.<br> Variable names are case sensitive.<br> Variable names should not be JS keywords.");
 
 
 
+
+
+// document.write('<h4>Math Expression</h4>')
 
 
 // 1
@@ -173,7 +205,8 @@
 // document.write(farenheit + "<sup>o</sup>C is " + celsius + "<sup>o</sup>C");
 
 
-// 7
+// 7.
+// document.write('<h5>Shopping Cart</h5>')
 // var item1 = 650;
 // var item2 = 100;
 // var quantity1 = 3;
@@ -188,7 +221,8 @@
 // document.write("<br>Total cost of your order is " + total);
 
 
-// 8
+// 8.
+// document.write('<h5>Marks Sheet</h5>')
 // var totalMarks = 980;
 // var obtainedMarks = 804;
 // var percentage = (obtainedMarks/totalMarks)*100;
@@ -197,7 +231,8 @@
 // document.write("<br>Percentage: " + percentage);
 
 
-// 9
+// 9.
+// document.write('<h5>Currency in PKR</h5>')
 // var dollars = 10;
 // var riyal = 25;
 // var pkr = dollars*104.80+riyal*28;
@@ -210,7 +245,8 @@
 // document.write("Result: " + result);
 
 
-// 11
+// 11.
+// document.write('<h5>Age Calculator</h5>')
 // var currentYear = 2020;
 // var birthYear = 2002;
 // var age = currentYear-birthYear;
@@ -219,7 +255,8 @@
 // document.write("<br>Your Age is " + age);
 
 
-// 12
+// 12.
+// document.write('<h5>The Geometrizer</h5>')
 // var radius = 20;
 // var circumference = 2*3.142*radius;
 // var area = 3.142*(radius**2);
@@ -228,7 +265,8 @@
 // document.write("<br>The area is: " + area);
 
 
-// 13
+// 13.
+// document.write('<h5>The Lifetime Supply Calculator</h5>')
 // var favSnack = "Chocolate";
 // var currentAge = 18;
 // var maxAge = 65;
@@ -241,6 +279,9 @@
 // document.write("<br>You will need " + totalSnacks);
 
 
+
+
+// document.write('<h4>Math Expression Part 2</h4>')
 
 
 // 1
@@ -285,15 +326,21 @@
 // subject1 = prompt("Enter a Subject name:");
 // subject2 = prompt("Enter a Subject name:");
 // subject3 = prompt("Enter a Subject name:");
-// totalMarks = 100;
-// obMarks1 = prompt("Enter Obatained Marks of 1st Subject:")
-// obMarks2 = prompt("Enter Obatained Marks of 2nd Subject:")
-// obMarks3 = prompt("Enter Obatained Marks of 3rd Subject:")
-// percentage1 = (obMarks1/totalMarks)* 100;
-// percentage2 = (obMarks2/totalMarks)* 100;
-// percentage3 = (obMarks3/totalMarks)* 100;
+// var totalMarks = 100;
+// var obMarks1 = +prompt("Enter Obatained Marks of 1st Subject:");
+// var obMarks2 = +prompt("Enter Obatained Marks of 2nd Subject:");
+// var obMarks3 = +prompt("Enter Obatained Marks of 3rd Subject:");
+// var percentage1 = (obMarks1/totalMarks)* 100;
+// var percentage2 = (obMarks2/totalMarks)* 100;
+// var percentage3 = (obMarks3/totalMarks)* 100;
+// var obMarks = obMarks1+obMarks2+obMarks3;
+// var percentage = obMarks/300*100;
+// document.write('<table><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr><tr><td>' + subject1 + '</td><td>' + totalMarks + '</td><td>' + obMarks1 + '</td><td>' + percentage1 + '%' + '</td></tr><tr><td>' + subject2 + '</td><td>' + totalMarks + '</td><td>' + obMarks2 + '</td><td>' + percentage2 + '%' + '</td></tr><tr><td>' + subject3 + '</td><td>' + totalMarks + '</td><td>' + obMarks3 + '</td><td>' + percentage3 + '%' + '</td></tr><tr><td></td><th>' + totalMarks*3 + '</th><th>' + obMarks + '</th><th>' + percentage + '%' + '</th></tr></table>')
 
 
+
+
+// document.write('<h4>User Input</h4>')
 
 // 1
 // var city = prompt("Enter a City name:");
