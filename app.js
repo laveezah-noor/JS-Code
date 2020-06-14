@@ -438,7 +438,8 @@
 // Displayed
 
 
-// 6
+// 6.
+// document.write('<h5>Marksheet</h5>')
 // var obtainedMarks = +prompt("Enter Obtained Marks of 3 Subjects:");
 // var totalMarks = +prompt("Enter Total marks of 3 Subjects:");
 // var percentage = obtainedMarks/totalMarks * 100;
@@ -520,6 +521,9 @@
 // document.write("<br>First Number: " + firstNo + "<br>Second Number: " + secondNo + "<br>Result: " + result);
 
 
+
+
+// document.write('<h4>Conditions</h4>')
 
 // 1.
 // var char = prompt("Enter a chatacter:");
@@ -609,6 +613,9 @@
 // }
 
 
+
+
+// document.write('<h4>Arrays</h4>')
 
 // 1.
 // var arr = [];
